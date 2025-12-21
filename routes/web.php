@@ -1,7 +1,4 @@
-<?php
+use App\Http\Controllers\WorkshopFormController;
 
-use Illuminate\Support\Facades\Route;
-
-Route::get('/', function () {
-    return view('html101');
-});
+Route::get('/workshop-form', [WorkshopFormController::class, 'index']);
+Route::post('/workshop-form', [WorkshopFormController::class, 'store']);
