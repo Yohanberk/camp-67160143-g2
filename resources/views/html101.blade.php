@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< Updated upstream
     <title>Workshop HTML Form</title>
 </head>
 <body>
@@ -30,5 +31,11 @@
 
         <button type="submit">ส่งข้อมูล</button>
     </form>
+=======
+    <title>My First Laravel Page</title>
+</head>
+<body>
+    <h1>หน้านี้คือของที่ฉันเขียนเอง 🎉</h1>
+>>>>>>> Stashed changes
 </body>
 </html>
